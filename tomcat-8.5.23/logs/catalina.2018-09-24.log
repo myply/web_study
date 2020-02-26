@@ -1,0 +1,634 @@
+24-Sep-2018 09:05:17.773 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+24-Sep-2018 09:05:17.773 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+24-Sep-2018 09:05:17.773 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+24-Sep-2018 09:05:17.773 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Sep-2018 09:05:17.773 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Sep-2018 09:05:17.773 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+24-Sep-2018 09:05:17.773 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\project\tmall_springboot\local\tomcat-8.5.23\jdk\jre
+24-Sep-2018 09:05:17.773 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+24-Sep-2018 09:05:17.773 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Sep-2018 09:05:17.773 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\project\tmall_springboot\local\tomcat-8.5.23
+24-Sep-2018 09:05:17.773 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\project\tmall_springboot\local\tomcat-8.5.23
+24-Sep-2018 09:05:17.773 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\project\tmall_springboot\local\tomcat-8.5.23\conf\logging.properties
+24-Sep-2018 09:05:17.773 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Sep-2018 09:05:17.773 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Sep-2018 09:05:17.773 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Sep-2018 09:05:17.773 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\project\tmall_springboot\local\tomcat-8.5.23
+24-Sep-2018 09:05:17.773 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\project\tmall_springboot\local\tomcat-8.5.23
+24-Sep-2018 09:05:17.773 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\project\tmall_springboot\local\tomcat-8.5.23\temp
+24-Sep-2018 09:05:17.773 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\project\tmall_springboot\local\tomcat-8.5.23\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;%JAVA_HOME%\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\software\apache-maven-3.5.0\bin;d:\software\Git\cmd;C:\Program Files\SourceGear\Common\DiffMerge\;D:/software/winrar;C:\Program Files\nodejs\;C:\Users\X7TI\AppData\Local\Microsoft\WindowsApps;C:\Wind\Wind.NET.Client\WindNET\bin\;C:\Wind\WWT\bin\;C:\Users\X7TI\AppData\Roaming\npm;.]
+24-Sep-2018 09:05:17.867 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Sep-2018 09:05:17.929 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 09:05:17.929 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 09:05:17.929 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 09:05:17.929 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 425 ms
+24-Sep-2018 09:05:17.961 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Sep-2018 09:05:17.961 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+24-Sep-2018 09:05:17.976 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\project\tmall_springboot\local\tomcat-8.5.23\webapps\tmall_springboot]
+24-Sep-2018 09:05:23.209 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Sep-2018 09:05:35.342 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\project\tmall_springboot\local\tomcat-8.5.23\webapps\tmall_springboot] has finished in [17,365] ms
+24-Sep-2018 09:05:35.346 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Sep-2018 09:05:35.356 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 09:05:35.359 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 17421 ms
+24-Sep-2018 09:08:45.992 信息 [Thread-9] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Sep-2018 09:08:46.163 信息 [Thread-9] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 09:08:46.362 信息 [Thread-9] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Sep-2018 09:08:46.411 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tmall_springboot] registered the JDBC driver [org.hsqldb.jdbc.JDBCDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+24-Sep-2018 09:08:46.411 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tmall_springboot] appears to have started a thread named [HSQLDB Timer @1b6366f] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.hsqldb.lib.HsqlTimer$TaskQueue.park(Unknown Source)
+ org.hsqldb.lib.HsqlTimer.nextTask(Unknown Source)
+ org.hsqldb.lib.HsqlTimer$TaskRunner.run(Unknown Source)
+ java.lang.Thread.run(Thread.java:745)
+24-Sep-2018 09:08:46.426 信息 [Thread-9] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Sep-2018 09:08:46.426 信息 [Thread-9] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 09:08:46.426 信息 [Thread-9] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Sep-2018 09:08:46.426 信息 [Thread-9] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 09:08:50.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+24-Sep-2018 09:08:50.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+24-Sep-2018 09:08:50.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+24-Sep-2018 09:08:50.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Sep-2018 09:08:50.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Sep-2018 09:08:50.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+24-Sep-2018 09:08:50.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\project\tmall_springboot\local\tomcat-8.5.23\jdk\jre
+24-Sep-2018 09:08:50.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+24-Sep-2018 09:08:50.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Sep-2018 09:08:50.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\project\tmall_springboot\local\tomcat-8.5.23
+24-Sep-2018 09:08:50.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\project\tmall_springboot\local\tomcat-8.5.23
+24-Sep-2018 09:08:50.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\project\tmall_springboot\local\tomcat-8.5.23\conf\logging.properties
+24-Sep-2018 09:08:50.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Sep-2018 09:08:50.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Sep-2018 09:08:50.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Sep-2018 09:08:50.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\project\tmall_springboot\local\tomcat-8.5.23
+24-Sep-2018 09:08:50.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\project\tmall_springboot\local\tomcat-8.5.23
+24-Sep-2018 09:08:50.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\project\tmall_springboot\local\tomcat-8.5.23\temp
+24-Sep-2018 09:08:50.690 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\project\tmall_springboot\local\tomcat-8.5.23\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;%JAVA_HOME%\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\software\apache-maven-3.5.0\bin;d:\software\Git\cmd;C:\Program Files\SourceGear\Common\DiffMerge\;D:/software/winrar;C:\Program Files\nodejs\;C:\Users\X7TI\AppData\Local\Microsoft\WindowsApps;C:\Wind\Wind.NET.Client\WindNET\bin\;C:\Wind\WWT\bin\;C:\Users\X7TI\AppData\Roaming\npm;.]
+24-Sep-2018 09:08:50.802 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Sep-2018 09:08:50.842 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 09:08:50.842 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 09:08:50.857 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 09:08:50.857 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 438 ms
+24-Sep-2018 09:08:50.885 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Sep-2018 09:08:50.885 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+24-Sep-2018 09:08:50.898 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\project\tmall_springboot\local\tomcat-8.5.23\webapps\tmall_springboot]
+24-Sep-2018 09:08:56.313 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Sep-2018 09:09:09.257 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\project\tmall_springboot\local\tomcat-8.5.23\webapps\tmall_springboot] has finished in [18,358] ms
+24-Sep-2018 09:09:09.259 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Sep-2018 09:09:09.269 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 09:09:09.273 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 18410 ms
+24-Sep-2018 09:10:29.900 信息 [Thread-9] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Sep-2018 09:10:30.121 信息 [Thread-9] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 09:10:30.250 信息 [Thread-9] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Sep-2018 09:10:30.268 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tmall_springboot] registered the JDBC driver [org.hsqldb.jdbc.JDBCDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+24-Sep-2018 09:10:30.269 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tmall_springboot] appears to have started a thread named [HSQLDB Timer @1b5806a] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.hsqldb.lib.HsqlTimer$TaskQueue.park(Unknown Source)
+ org.hsqldb.lib.HsqlTimer.nextTask(Unknown Source)
+ org.hsqldb.lib.HsqlTimer$TaskRunner.run(Unknown Source)
+ java.lang.Thread.run(Thread.java:745)
+24-Sep-2018 09:10:30.278 信息 [Thread-9] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Sep-2018 09:10:30.282 信息 [Thread-9] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 09:10:30.286 信息 [Thread-9] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Sep-2018 09:10:30.287 信息 [Thread-9] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 09:22:00.252 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+24-Sep-2018 09:22:00.258 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+24-Sep-2018 09:22:00.259 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+24-Sep-2018 09:22:00.259 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Sep-2018 09:22:00.259 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Sep-2018 09:22:00.260 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+24-Sep-2018 09:22:00.260 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\project\tmall_springboot\local\tomcat-8.5.23\jdk\jre
+24-Sep-2018 09:22:00.260 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+24-Sep-2018 09:22:00.260 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Sep-2018 09:22:00.260 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\project\tmall_springboot\local\tomcat-8.5.23
+24-Sep-2018 09:22:00.261 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\project\tmall_springboot\local\tomcat-8.5.23
+24-Sep-2018 09:22:00.261 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\project\tmall_springboot\local\tomcat-8.5.23\conf\logging.properties
+24-Sep-2018 09:22:00.261 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Sep-2018 09:22:00.261 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Sep-2018 09:22:00.262 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Sep-2018 09:22:00.262 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\project\tmall_springboot\local\tomcat-8.5.23
+24-Sep-2018 09:22:00.262 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\project\tmall_springboot\local\tomcat-8.5.23
+24-Sep-2018 09:22:00.263 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\project\tmall_springboot\local\tomcat-8.5.23\temp
+24-Sep-2018 09:22:00.265 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\project\tmall_springboot\local\tomcat-8.5.23\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\software\apache-maven-3.5.0\bin;d:\software\Git\cmd;C:\Program Files\SourceGear\Common\DiffMerge\;D:/software/winrar;C:\Program Files\nodejs\;C:\Users\X7TI\AppData\Local\Microsoft\WindowsApps;C:\Wind\Wind.NET.Client\WindNET\bin\;C:\Wind\WWT\bin\;C:\Users\X7TI\AppData\Roaming\npm;.]
+24-Sep-2018 09:22:00.377 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 09:22:00.439 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 09:22:00.442 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 09:22:00.445 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 09:22:00.446 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 489 ms
+24-Sep-2018 09:22:00.479 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Sep-2018 09:22:00.480 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+24-Sep-2018 09:22:00.495 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\project\tmall_springboot\local\tomcat-8.5.23\webapps\tmall_springboot]
+24-Sep-2018 09:22:06.025 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Sep-2018 09:22:19.436 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\project\tmall_springboot\local\tomcat-8.5.23\webapps\tmall_springboot] has finished in [18,941] ms
+24-Sep-2018 09:22:19.440 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 09:22:19.450 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 09:22:19.454 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 19005 ms
+24-Sep-2018 16:45:14.198 信息 [Thread-9] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 16:45:14.408 信息 [Thread-9] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 16:45:14.577 信息 [Thread-9] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Sep-2018 16:45:14.609 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tmall_springboot] registered the JDBC driver [org.hsqldb.jdbc.JDBCDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+24-Sep-2018 16:45:14.611 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tmall_springboot] appears to have started a thread named [HSQLDB Timer @1b6366f] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.hsqldb.lib.HsqlTimer$TaskQueue.park(Unknown Source)
+ org.hsqldb.lib.HsqlTimer.nextTask(Unknown Source)
+ org.hsqldb.lib.HsqlTimer$TaskRunner.run(Unknown Source)
+ java.lang.Thread.run(Thread.java:745)
+24-Sep-2018 16:45:14.622 信息 [Thread-9] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 16:45:14.627 信息 [Thread-9] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 16:45:14.629 信息 [Thread-9] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 16:45:14.630 信息 [Thread-9] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 17:08:35.678 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+24-Sep-2018 17:08:35.689 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+24-Sep-2018 17:08:35.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+24-Sep-2018 17:08:35.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Sep-2018 17:08:35.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Sep-2018 17:08:35.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+24-Sep-2018 17:08:35.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre
+24-Sep-2018 17:08:35.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+24-Sep-2018 17:08:35.692 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Sep-2018 17:08:35.692 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 17:08:35.692 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 17:08:35.692 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\conf\logging.properties
+24-Sep-2018 17:08:35.692 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Sep-2018 17:08:35.693 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Sep-2018 17:08:35.693 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Sep-2018 17:08:35.693 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 17:08:35.694 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 17:08:35.695 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\temp
+24-Sep-2018 17:08:35.697 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\software\apache-maven-3.5.0\bin;d:\software\Git\cmd;C:\Program Files\SourceGear\Common\DiffMerge\;D:/software/winrar;C:\Program Files\nodejs\;C:\Users\X7TI\AppData\Local\Microsoft\WindowsApps;C:\Wind\Wind.NET.Client\WindNET\bin\;C:\Wind\WWT\bin\;C:\Users\X7TI\AppData\Roaming\npm;.]
+24-Sep-2018 17:08:35.852 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 17:08:35.917 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 17:08:35.920 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 17:08:35.924 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 17:08:35.925 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 642 ms
+24-Sep-2018 17:08:35.960 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Sep-2018 17:08:35.960 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+24-Sep-2018 17:08:35.969 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot]
+24-Sep-2018 17:08:43.369 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Sep-2018 17:08:58.055 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot] has finished in [22,086] ms
+24-Sep-2018 17:08:58.059 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 17:08:58.073 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 17:08:58.080 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 22155 ms
+24-Sep-2018 17:10:16.574 信息 [Thread-9] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 17:10:16.739 信息 [Thread-9] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 17:10:16.865 信息 [Thread-9] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Sep-2018 17:10:16.896 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tmall_springboot] registered the JDBC driver [org.hsqldb.jdbc.JDBCDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+24-Sep-2018 17:10:16.897 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tmall_springboot] appears to have started a thread named [HSQLDB Timer @ffe324] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.hsqldb.lib.HsqlTimer$TaskQueue.park(Unknown Source)
+ org.hsqldb.lib.HsqlTimer.nextTask(Unknown Source)
+ org.hsqldb.lib.HsqlTimer$TaskRunner.run(Unknown Source)
+ java.lang.Thread.run(Thread.java:745)
+24-Sep-2018 17:10:16.908 信息 [Thread-9] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 17:10:16.910 信息 [Thread-9] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 17:10:16.912 信息 [Thread-9] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 17:10:16.913 信息 [Thread-9] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:47:14.744 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+24-Sep-2018 22:47:14.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+24-Sep-2018 22:47:14.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+24-Sep-2018 22:47:14.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Sep-2018 22:47:14.753 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Sep-2018 22:47:14.753 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+24-Sep-2018 22:47:14.753 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre
+24-Sep-2018 22:47:14.753 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+24-Sep-2018 22:47:14.753 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Sep-2018 22:47:14.753 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:47:14.754 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:47:14.754 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\conf\logging.properties
+24-Sep-2018 22:47:14.754 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Sep-2018 22:47:14.754 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Sep-2018 22:47:14.755 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Sep-2018 22:47:14.755 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:47:14.755 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:47:14.756 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\temp
+24-Sep-2018 22:47:14.756 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\software\apache-maven-3.5.0\bin;d:\software\Git\cmd;C:\Program Files\SourceGear\Common\DiffMerge\;D:/software/winrar;C:\Program Files\nodejs\;C:\Users\X7TI\AppData\Local\Microsoft\WindowsApps;C:\Wind\Wind.NET.Client\WindNET\bin\;C:\Wind\WWT\bin\;C:\Users\X7TI\AppData\Roaming\npm;.]
+24-Sep-2018 22:47:14.886 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:47:14.956 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:47:14.960 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:47:14.963 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:47:14.963 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 563 ms
+24-Sep-2018 22:47:15.003 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Sep-2018 22:47:15.004 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+24-Sep-2018 22:47:15.016 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot]
+24-Sep-2018 22:47:21.868 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Sep-2018 22:47:22.140 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [171] milliseconds.
+24-Sep-2018 22:47:22.175 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot] has finished in [7,159] ms
+24-Sep-2018 22:47:22.178 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:47:22.187 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:47:22.192 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 7228 ms
+24-Sep-2018 22:48:59.956 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+24-Sep-2018 22:48:59.962 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+24-Sep-2018 22:48:59.963 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+24-Sep-2018 22:48:59.963 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Sep-2018 22:48:59.963 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Sep-2018 22:48:59.963 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+24-Sep-2018 22:48:59.963 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre
+24-Sep-2018 22:48:59.964 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+24-Sep-2018 22:48:59.964 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Sep-2018 22:48:59.964 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:48:59.964 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:48:59.964 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\conf\logging.properties
+24-Sep-2018 22:48:59.965 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Sep-2018 22:48:59.965 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Sep-2018 22:48:59.965 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Sep-2018 22:48:59.965 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:48:59.966 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:48:59.968 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\temp
+24-Sep-2018 22:48:59.969 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\software\apache-maven-3.5.0\bin;d:\software\Git\cmd;C:\Program Files\SourceGear\Common\DiffMerge\;D:/software/winrar;C:\Program Files\nodejs\;C:\Users\X7TI\AppData\Local\Microsoft\WindowsApps;C:\Wind\Wind.NET.Client\WindNET\bin\;C:\Wind\WWT\bin\;C:\Users\X7TI\AppData\Roaming\npm;.]
+24-Sep-2018 22:49:00.064 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:49:00.121 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:49:00.124 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:49:00.126 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:49:00.127 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 445 ms
+24-Sep-2018 22:49:00.153 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Sep-2018 22:49:00.154 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+24-Sep-2018 22:49:00.165 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot]
+24-Sep-2018 22:49:05.567 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Sep-2018 22:49:05.808 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [157] milliseconds.
+24-Sep-2018 22:49:05.829 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot] has finished in [5,664] ms
+24-Sep-2018 22:49:05.835 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:49:05.844 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:49:05.848 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 5719 ms
+24-Sep-2018 22:49:13.341 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:49:13.597 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:49:13.781 信息 [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Sep-2018 22:49:13.805 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:49:13.809 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:49:13.814 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:49:13.815 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:51:45.606 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+24-Sep-2018 22:51:45.614 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+24-Sep-2018 22:51:45.614 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+24-Sep-2018 22:51:45.614 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Sep-2018 22:51:45.615 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Sep-2018 22:51:45.615 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+24-Sep-2018 22:51:45.615 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre
+24-Sep-2018 22:51:45.615 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+24-Sep-2018 22:51:45.615 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Sep-2018 22:51:45.616 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:51:45.616 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:51:45.616 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\conf\logging.properties
+24-Sep-2018 22:51:45.616 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Sep-2018 22:51:45.617 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Sep-2018 22:51:45.617 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Sep-2018 22:51:45.617 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:51:45.619 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:51:45.620 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\temp
+24-Sep-2018 22:51:45.622 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\software\apache-maven-3.5.0\bin;d:\software\Git\cmd;C:\Program Files\SourceGear\Common\DiffMerge\;D:/software/winrar;C:\Program Files\nodejs\;C:\Users\X7TI\AppData\Local\Microsoft\WindowsApps;C:\Wind\Wind.NET.Client\WindNET\bin\;C:\Wind\WWT\bin\;C:\Users\X7TI\AppData\Roaming\npm;.]
+24-Sep-2018 22:51:45.719 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:51:45.776 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:51:45.779 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:51:45.781 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:51:45.781 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 453 ms
+24-Sep-2018 22:51:45.808 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Sep-2018 22:51:45.809 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+24-Sep-2018 22:51:45.819 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot]
+24-Sep-2018 22:51:51.569 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Sep-2018 22:52:13.963 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+24-Sep-2018 22:52:13.970 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+24-Sep-2018 22:52:13.970 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+24-Sep-2018 22:52:13.970 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Sep-2018 22:52:13.971 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Sep-2018 22:52:13.971 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+24-Sep-2018 22:52:13.971 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre
+24-Sep-2018 22:52:13.971 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+24-Sep-2018 22:52:13.972 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Sep-2018 22:52:13.972 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:52:13.972 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:52:13.972 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\conf\logging.properties
+24-Sep-2018 22:52:13.973 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Sep-2018 22:52:13.973 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Sep-2018 22:52:13.973 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Sep-2018 22:52:13.973 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:52:13.974 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:52:13.976 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\temp
+24-Sep-2018 22:52:13.977 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\software\apache-maven-3.5.0\bin;d:\software\Git\cmd;C:\Program Files\SourceGear\Common\DiffMerge\;D:/software/winrar;C:\Program Files\nodejs\;C:\Users\X7TI\AppData\Local\Microsoft\WindowsApps;C:\Wind\Wind.NET.Client\WindNET\bin\;C:\Wind\WWT\bin\;C:\Users\X7TI\AppData\Roaming\npm;.]
+24-Sep-2018 22:52:14.072 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:52:14.129 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:52:14.132 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:52:14.134 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:52:14.134 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 447 ms
+24-Sep-2018 22:52:14.161 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Sep-2018 22:52:14.161 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+24-Sep-2018 22:52:14.170 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot]
+24-Sep-2018 22:52:19.969 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Sep-2018 22:52:38.671 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+24-Sep-2018 22:52:38.677 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+24-Sep-2018 22:52:38.678 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+24-Sep-2018 22:52:38.678 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Sep-2018 22:52:38.678 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Sep-2018 22:52:38.678 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+24-Sep-2018 22:52:38.679 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre
+24-Sep-2018 22:52:38.679 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+24-Sep-2018 22:52:38.679 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Sep-2018 22:52:38.679 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:52:38.679 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:52:38.680 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\conf\logging.properties
+24-Sep-2018 22:52:38.680 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Sep-2018 22:52:38.680 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Sep-2018 22:52:38.680 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Sep-2018 22:52:38.681 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:52:38.682 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:52:38.683 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\temp
+24-Sep-2018 22:52:38.684 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\software\apache-maven-3.5.0\bin;d:\software\Git\cmd;C:\Program Files\SourceGear\Common\DiffMerge\;D:/software/winrar;C:\Program Files\nodejs\;C:\Users\X7TI\AppData\Local\Microsoft\WindowsApps;C:\Wind\Wind.NET.Client\WindNET\bin\;C:\Wind\WWT\bin\;C:\Users\X7TI\AppData\Roaming\npm;.]
+24-Sep-2018 22:52:38.778 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:52:38.836 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:52:38.838 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:52:38.841 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:52:38.842 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 451 ms
+24-Sep-2018 22:52:38.869 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Sep-2018 22:52:38.870 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+24-Sep-2018 22:52:38.880 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot]
+24-Sep-2018 22:52:44.593 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Sep-2018 22:53:27.169 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+24-Sep-2018 22:53:27.175 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+24-Sep-2018 22:53:27.176 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+24-Sep-2018 22:53:27.176 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Sep-2018 22:53:27.176 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Sep-2018 22:53:27.176 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+24-Sep-2018 22:53:27.177 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre
+24-Sep-2018 22:53:27.177 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+24-Sep-2018 22:53:27.177 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Sep-2018 22:53:27.177 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:53:27.177 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:53:27.178 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\conf\logging.properties
+24-Sep-2018 22:53:27.178 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Sep-2018 22:53:27.178 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Sep-2018 22:53:27.179 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Sep-2018 22:53:27.179 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:53:27.180 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:53:27.182 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\temp
+24-Sep-2018 22:53:27.184 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\software\apache-maven-3.5.0\bin;d:\software\Git\cmd;C:\Program Files\SourceGear\Common\DiffMerge\;D:/software/winrar;C:\Program Files\nodejs\;C:\Users\X7TI\AppData\Local\Microsoft\WindowsApps;C:\Wind\Wind.NET.Client\WindNET\bin\;C:\Wind\WWT\bin\;C:\Users\X7TI\AppData\Roaming\npm;.]
+24-Sep-2018 22:53:27.279 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:53:27.334 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:53:27.337 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:53:27.340 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:53:27.340 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 448 ms
+24-Sep-2018 22:53:27.366 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Sep-2018 22:53:27.367 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+24-Sep-2018 22:53:27.378 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot]
+24-Sep-2018 22:53:32.959 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Sep-2018 22:53:33.201 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [156] milliseconds.
+24-Sep-2018 22:53:33.220 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot] has finished in [5,842] ms
+24-Sep-2018 22:53:33.226 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:53:33.234 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:53:33.238 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 5897 ms
+24-Sep-2018 22:54:11.174 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+24-Sep-2018 22:54:11.180 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+24-Sep-2018 22:54:11.180 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+24-Sep-2018 22:54:11.181 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Sep-2018 22:54:11.181 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Sep-2018 22:54:11.181 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+24-Sep-2018 22:54:11.181 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre
+24-Sep-2018 22:54:11.181 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+24-Sep-2018 22:54:11.182 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Sep-2018 22:54:11.182 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:54:11.182 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:54:11.182 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\conf\logging.properties
+24-Sep-2018 22:54:11.182 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Sep-2018 22:54:11.183 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Sep-2018 22:54:11.183 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Sep-2018 22:54:11.183 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:54:11.184 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:54:11.186 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\temp
+24-Sep-2018 22:54:11.187 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\software\apache-maven-3.5.0\bin;d:\software\Git\cmd;C:\Program Files\SourceGear\Common\DiffMerge\;D:/software/winrar;C:\Program Files\nodejs\;C:\Users\X7TI\AppData\Local\Microsoft\WindowsApps;C:\Wind\Wind.NET.Client\WindNET\bin\;C:\Wind\WWT\bin\;C:\Users\X7TI\AppData\Roaming\npm;.]
+24-Sep-2018 22:54:11.283 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:54:11.341 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:54:11.344 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:54:11.346 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:54:11.347 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 445 ms
+24-Sep-2018 22:54:11.376 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Sep-2018 22:54:11.376 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+24-Sep-2018 22:54:11.387 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot]
+24-Sep-2018 22:54:16.915 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Sep-2018 22:54:17.161 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [155] milliseconds.
+24-Sep-2018 22:54:17.178 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot] has finished in [5,791] ms
+24-Sep-2018 22:54:17.182 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:54:17.190 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:54:17.194 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 5844 ms
+24-Sep-2018 22:54:19.612 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:54:19.836 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:54:19.971 信息 [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Sep-2018 22:54:19.991 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:54:19.995 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:54:19.999 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:54:20.000 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:54:35.816 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+24-Sep-2018 22:54:35.823 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+24-Sep-2018 22:54:35.823 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+24-Sep-2018 22:54:35.824 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Sep-2018 22:54:35.824 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Sep-2018 22:54:35.824 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+24-Sep-2018 22:54:35.824 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre
+24-Sep-2018 22:54:35.824 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+24-Sep-2018 22:54:35.824 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Sep-2018 22:54:35.825 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:54:35.825 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:54:35.825 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\conf\logging.properties
+24-Sep-2018 22:54:35.825 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Sep-2018 22:54:35.825 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Sep-2018 22:54:35.825 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Sep-2018 22:54:35.826 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:54:35.827 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:54:35.828 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\temp
+24-Sep-2018 22:54:35.830 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\software\apache-maven-3.5.0\bin;d:\software\Git\cmd;C:\Program Files\SourceGear\Common\DiffMerge\;D:/software/winrar;C:\Program Files\nodejs\;C:\Users\X7TI\AppData\Local\Microsoft\WindowsApps;C:\Wind\Wind.NET.Client\WindNET\bin\;C:\Wind\WWT\bin\;C:\Users\X7TI\AppData\Roaming\npm;.]
+24-Sep-2018 22:54:35.927 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:54:35.981 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:54:35.984 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:54:35.987 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:54:35.987 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 454 ms
+24-Sep-2018 22:54:36.013 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Sep-2018 22:54:36.014 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+24-Sep-2018 22:54:36.025 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot]
+24-Sep-2018 22:54:41.645 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Sep-2018 22:55:01.913 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+24-Sep-2018 22:55:01.919 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+24-Sep-2018 22:55:01.920 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+24-Sep-2018 22:55:01.920 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Sep-2018 22:55:01.920 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Sep-2018 22:55:01.920 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+24-Sep-2018 22:55:01.920 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre
+24-Sep-2018 22:55:01.921 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+24-Sep-2018 22:55:01.921 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Sep-2018 22:55:01.921 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:55:01.921 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:55:01.922 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\conf\logging.properties
+24-Sep-2018 22:55:01.922 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Sep-2018 22:55:01.922 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Sep-2018 22:55:01.922 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Sep-2018 22:55:01.923 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:55:01.924 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:55:01.925 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\temp
+24-Sep-2018 22:55:01.927 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\software\apache-maven-3.5.0\bin;d:\software\Git\cmd;C:\Program Files\SourceGear\Common\DiffMerge\;D:/software/winrar;C:\Program Files\nodejs\;C:\Users\X7TI\AppData\Local\Microsoft\WindowsApps;C:\Wind\Wind.NET.Client\WindNET\bin\;C:\Wind\WWT\bin\;C:\Users\X7TI\AppData\Roaming\npm;.]
+24-Sep-2018 22:55:02.023 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:55:02.079 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:55:02.081 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:55:02.084 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:55:02.085 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 445 ms
+24-Sep-2018 22:55:02.113 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Sep-2018 22:55:02.113 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+24-Sep-2018 22:55:02.124 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot]
+24-Sep-2018 22:55:07.756 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Sep-2018 22:55:16.411 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+24-Sep-2018 22:55:16.418 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+24-Sep-2018 22:55:16.418 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+24-Sep-2018 22:55:16.418 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Sep-2018 22:55:16.418 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Sep-2018 22:55:16.419 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+24-Sep-2018 22:55:16.419 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre
+24-Sep-2018 22:55:16.419 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+24-Sep-2018 22:55:16.419 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Sep-2018 22:55:16.419 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:55:16.419 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:55:16.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\conf\logging.properties
+24-Sep-2018 22:55:16.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Sep-2018 22:55:16.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Sep-2018 22:55:16.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Sep-2018 22:55:16.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:55:16.422 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:55:16.424 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\temp
+24-Sep-2018 22:55:16.425 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\software\apache-maven-3.5.0\bin;d:\software\Git\cmd;C:\Program Files\SourceGear\Common\DiffMerge\;D:/software/winrar;C:\Program Files\nodejs\;C:\Users\X7TI\AppData\Local\Microsoft\WindowsApps;C:\Wind\Wind.NET.Client\WindNET\bin\;C:\Wind\WWT\bin\;C:\Users\X7TI\AppData\Roaming\npm;.]
+24-Sep-2018 22:55:16.517 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:55:16.575 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:55:16.578 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:55:16.580 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:55:16.581 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 443 ms
+24-Sep-2018 22:55:16.610 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Sep-2018 22:55:16.610 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+24-Sep-2018 22:55:16.621 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot]
+24-Sep-2018 22:55:22.276 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Sep-2018 22:55:22.524 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [160] milliseconds.
+24-Sep-2018 22:55:22.542 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot] has finished in [5,921] ms
+24-Sep-2018 22:55:22.546 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:55:22.555 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:55:22.558 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 5976 ms
+24-Sep-2018 22:55:25.641 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:55:25.883 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:55:26.022 信息 [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Sep-2018 22:55:26.044 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:55:26.051 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:55:26.056 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:55:26.057 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:55:40.009 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+24-Sep-2018 22:55:40.015 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+24-Sep-2018 22:55:40.016 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+24-Sep-2018 22:55:40.016 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Sep-2018 22:55:40.016 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Sep-2018 22:55:40.016 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+24-Sep-2018 22:55:40.016 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre
+24-Sep-2018 22:55:40.017 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+24-Sep-2018 22:55:40.017 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Sep-2018 22:55:40.017 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:55:40.017 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:55:40.018 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\conf\logging.properties
+24-Sep-2018 22:55:40.018 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Sep-2018 22:55:40.018 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Sep-2018 22:55:40.018 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Sep-2018 22:55:40.018 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:55:40.019 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:55:40.020 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\temp
+24-Sep-2018 22:55:40.022 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\software\apache-maven-3.5.0\bin;d:\software\Git\cmd;C:\Program Files\SourceGear\Common\DiffMerge\;D:/software/winrar;C:\Program Files\nodejs\;C:\Users\X7TI\AppData\Local\Microsoft\WindowsApps;C:\Wind\Wind.NET.Client\WindNET\bin\;C:\Wind\WWT\bin\;C:\Users\X7TI\AppData\Roaming\npm;.]
+24-Sep-2018 22:55:40.137 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:55:40.196 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:55:40.199 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:55:40.203 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:55:40.203 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 486 ms
+24-Sep-2018 22:55:40.231 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Sep-2018 22:55:40.231 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+24-Sep-2018 22:55:40.244 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot]
+24-Sep-2018 22:55:45.960 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Sep-2018 22:55:52.076 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+24-Sep-2018 22:55:52.082 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+24-Sep-2018 22:55:52.082 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+24-Sep-2018 22:55:52.082 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Sep-2018 22:55:52.082 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Sep-2018 22:55:52.082 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+24-Sep-2018 22:55:52.083 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre
+24-Sep-2018 22:55:52.083 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+24-Sep-2018 22:55:52.083 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Sep-2018 22:55:52.083 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:55:52.083 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:55:52.083 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\conf\logging.properties
+24-Sep-2018 22:55:52.084 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Sep-2018 22:55:52.084 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Sep-2018 22:55:52.084 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Sep-2018 22:55:52.084 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:55:52.086 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:55:52.087 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\temp
+24-Sep-2018 22:55:52.089 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\software\apache-maven-3.5.0\bin;d:\software\Git\cmd;C:\Program Files\SourceGear\Common\DiffMerge\;D:/software/winrar;C:\Program Files\nodejs\;C:\Users\X7TI\AppData\Local\Microsoft\WindowsApps;C:\Wind\Wind.NET.Client\WindNET\bin\;C:\Wind\WWT\bin\;C:\Users\X7TI\AppData\Roaming\npm;.]
+24-Sep-2018 22:55:52.184 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:55:52.244 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:55:52.246 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:55:52.249 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:55:52.249 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 448 ms
+24-Sep-2018 22:55:52.277 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Sep-2018 22:55:52.277 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+24-Sep-2018 22:55:52.290 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot]
+24-Sep-2018 22:55:57.866 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Sep-2018 22:56:04.091 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+24-Sep-2018 22:56:04.097 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+24-Sep-2018 22:56:04.097 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+24-Sep-2018 22:56:04.098 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Sep-2018 22:56:04.098 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Sep-2018 22:56:04.098 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+24-Sep-2018 22:56:04.098 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre
+24-Sep-2018 22:56:04.098 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+24-Sep-2018 22:56:04.098 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Sep-2018 22:56:04.099 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:56:04.099 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:56:04.099 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\conf\logging.properties
+24-Sep-2018 22:56:04.099 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Sep-2018 22:56:04.099 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Sep-2018 22:56:04.099 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Sep-2018 22:56:04.100 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:56:04.100 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:56:04.101 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\temp
+24-Sep-2018 22:56:04.103 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\software\apache-maven-3.5.0\bin;d:\software\Git\cmd;C:\Program Files\SourceGear\Common\DiffMerge\;D:/software/winrar;C:\Program Files\nodejs\;C:\Users\X7TI\AppData\Local\Microsoft\WindowsApps;C:\Wind\Wind.NET.Client\WindNET\bin\;C:\Wind\WWT\bin\;C:\Users\X7TI\AppData\Roaming\npm;.]
+24-Sep-2018 22:56:04.196 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:56:04.252 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:56:04.255 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:56:04.257 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:56:04.257 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 438 ms
+24-Sep-2018 22:56:04.284 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Sep-2018 22:56:04.284 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+24-Sep-2018 22:56:04.293 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot]
+24-Sep-2018 22:56:09.862 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Sep-2018 22:56:10.099 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [153] milliseconds.
+24-Sep-2018 22:56:10.119 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot] has finished in [5,825] ms
+24-Sep-2018 22:56:10.124 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:56:10.133 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:56:10.136 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 5877 ms
+24-Sep-2018 22:56:11.313 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:56:11.511 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:56:11.679 信息 [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Sep-2018 22:56:11.699 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:56:11.705 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:56:11.709 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:56:11.710 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:56:35.561 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+24-Sep-2018 22:56:35.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+24-Sep-2018 22:56:35.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+24-Sep-2018 22:56:35.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Sep-2018 22:56:35.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Sep-2018 22:56:35.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+24-Sep-2018 22:56:35.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre
+24-Sep-2018 22:56:35.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+24-Sep-2018 22:56:35.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Sep-2018 22:56:35.569 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:56:35.569 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:56:35.569 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\conf\logging.properties
+24-Sep-2018 22:56:35.570 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Sep-2018 22:56:35.570 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Sep-2018 22:56:35.570 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Sep-2018 22:56:35.570 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:56:35.572 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+24-Sep-2018 22:56:35.573 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\temp
+24-Sep-2018 22:56:35.575 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\software\apache-maven-3.5.0\bin;d:\software\Git\cmd;C:\Program Files\SourceGear\Common\DiffMerge\;D:/software/winrar;C:\Program Files\nodejs\;C:\Users\X7TI\AppData\Local\Microsoft\WindowsApps;C:\Wind\Wind.NET.Client\WindNET\bin\;C:\Wind\WWT\bin\;C:\Users\X7TI\AppData\Roaming\npm;.]
+24-Sep-2018 22:56:35.673 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+24-Sep-2018 22:56:35.732 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:56:35.736 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9009"]
+24-Sep-2018 22:56:35.739 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2018 22:56:35.740 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 464 ms
+24-Sep-2018 22:56:35.769 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Sep-2018 22:56:35.769 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+24-Sep-2018 22:56:35.779 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\project\tmall_springboot\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot]
+24-Sep-2018 22:56:41.342 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.

@@ -1,0 +1,106 @@
+28-Nov-2018 16:40:41.616 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+28-Nov-2018 16:40:41.623 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+28-Nov-2018 16:40:41.623 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+28-Nov-2018 16:40:41.623 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Nov-2018 16:40:41.623 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Nov-2018 16:40:41.623 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+28-Nov-2018 16:40:41.624 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             F:\chrome_download\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre
+28-Nov-2018 16:40:41.624 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+28-Nov-2018 16:40:41.624 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Nov-2018 16:40:41.624 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\chrome_download\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+28-Nov-2018 16:40:41.624 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\chrome_download\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+28-Nov-2018 16:40:41.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\chrome_download\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\conf\logging.properties
+28-Nov-2018 16:40:41.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Nov-2018 16:40:41.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Nov-2018 16:40:41.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Nov-2018 16:40:41.629 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\chrome_download\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+28-Nov-2018 16:40:41.629 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\chrome_download\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+28-Nov-2018 16:40:41.631 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\chrome_download\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\temp
+28-Nov-2018 16:40:41.632 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\chrome_download\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\software\apache-maven-3.5.0\bin;d:\software\Git\cmd;C:\Program Files\SourceGear\Common\DiffMerge\;D:/software/winrar;d:/software;C:\Users\X7TI\AppData\Local\Microsoft\WindowsApps;C:\Wind\Wind.NET.Client\WindNET\bin\;C:\Wind\WWT\bin\;.]
+28-Nov-2018 16:40:41.746 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+28-Nov-2018 16:40:41.814 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Nov-2018 16:40:41.818 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9009"]
+28-Nov-2018 16:40:41.821 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Nov-2018 16:40:41.822 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 520 ms
+28-Nov-2018 16:40:41.868 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Nov-2018 16:40:41.868 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+28-Nov-2018 16:40:41.887 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\chrome_download\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot]
+28-Nov-2018 16:40:48.112 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Nov-2018 16:41:01.296 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\chrome_download\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot] has finished in [19,409] ms
+28-Nov-2018 16:41:01.300 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+28-Nov-2018 16:41:01.311 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-9009"]
+28-Nov-2018 16:41:01.315 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 19490 ms
+28-Nov-2018 16:41:16.469 信息 [http-nio-9090-exec-2] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in the request target. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:476)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:687)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Nov-2018 16:44:00.056 信息 [Thread-9] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+28-Nov-2018 16:44:00.262 信息 [Thread-9] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-9009"]
+28-Nov-2018 16:44:00.422 信息 [Thread-9] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Nov-2018 16:44:00.440 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tmall_springboot] registered the JDBC driver [org.hsqldb.jdbc.JDBCDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Nov-2018 16:44:00.441 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tmall_springboot] appears to have started a thread named [HSQLDB Timer @7ea3bc] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.hsqldb.lib.HsqlTimer$TaskQueue.park(Unknown Source)
+ org.hsqldb.lib.HsqlTimer.nextTask(Unknown Source)
+ org.hsqldb.lib.HsqlTimer$TaskRunner.run(Unknown Source)
+ java.lang.Thread.run(Thread.java:745)
+28-Nov-2018 16:44:00.450 信息 [Thread-9] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+28-Nov-2018 16:44:00.451 信息 [Thread-9] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-9009"]
+28-Nov-2018 16:44:00.453 信息 [Thread-9] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+28-Nov-2018 16:44:00.455 信息 [Thread-9] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-9009"]
+28-Nov-2018 16:44:10.082 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+28-Nov-2018 16:44:10.088 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+28-Nov-2018 16:44:10.091 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+28-Nov-2018 16:44:10.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Nov-2018 16:44:10.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Nov-2018 16:44:10.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+28-Nov-2018 16:44:10.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             F:\chrome_download\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre
+28-Nov-2018 16:44:10.093 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+28-Nov-2018 16:44:10.093 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Nov-2018 16:44:10.093 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\chrome_download\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+28-Nov-2018 16:44:10.093 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\chrome_download\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+28-Nov-2018 16:44:10.093 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\chrome_download\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\conf\logging.properties
+28-Nov-2018 16:44:10.094 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Nov-2018 16:44:10.094 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Nov-2018 16:44:10.094 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Nov-2018 16:44:10.094 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\chrome_download\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+28-Nov-2018 16:44:10.095 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\chrome_download\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23
+28-Nov-2018 16:44:10.096 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\chrome_download\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\temp
+28-Nov-2018 16:44:10.098 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\chrome_download\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\software\apache-maven-3.5.0\bin;d:\software\Git\cmd;C:\Program Files\SourceGear\Common\DiffMerge\;D:/software/winrar;d:/software;C:\Users\X7TI\AppData\Local\Microsoft\WindowsApps;C:\Wind\Wind.NET.Client\WindNET\bin\;C:\Wind\WWT\bin\;.]
+28-Nov-2018 16:44:10.204 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+28-Nov-2018 16:44:10.262 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Nov-2018 16:44:10.264 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9009"]
+28-Nov-2018 16:44:10.267 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Nov-2018 16:44:10.268 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 460 ms
+28-Nov-2018 16:44:10.295 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Nov-2018 16:44:10.296 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+28-Nov-2018 16:44:10.305 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\chrome_download\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot]
+28-Nov-2018 16:44:15.862 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Nov-2018 16:44:29.295 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\chrome_download\tomcat_with_jdk_hsqldb_springboot\tomcat-8.5.23\webapps\tmall_springboot] has finished in [18,990] ms
+28-Nov-2018 16:44:29.299 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+28-Nov-2018 16:44:29.309 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-9009"]
+28-Nov-2018 16:44:29.314 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 19043 ms
+28-Nov-2018 16:45:18.165 信息 [Thread-9] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+28-Nov-2018 16:45:18.379 信息 [Thread-9] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-9009"]
+28-Nov-2018 16:45:18.536 信息 [Thread-9] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Nov-2018 16:45:18.550 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tmall_springboot] registered the JDBC driver [org.hsqldb.jdbc.JDBCDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Nov-2018 16:45:18.551 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tmall_springboot] appears to have started a thread named [HSQLDB Timer @1b2176e] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.hsqldb.lib.HsqlTimer$TaskQueue.park(Unknown Source)
+ org.hsqldb.lib.HsqlTimer.nextTask(Unknown Source)
+ org.hsqldb.lib.HsqlTimer$TaskRunner.run(Unknown Source)
+ java.lang.Thread.run(Thread.java:745)
+28-Nov-2018 16:45:18.568 信息 [Thread-9] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+28-Nov-2018 16:45:18.573 信息 [Thread-9] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-9009"]
+28-Nov-2018 16:45:18.577 信息 [Thread-9] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+28-Nov-2018 16:45:18.578 信息 [Thread-9] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-9009"]

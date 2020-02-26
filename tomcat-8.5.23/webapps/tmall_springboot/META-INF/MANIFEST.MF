@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Implementation-Title: tmall_springboot
+Implementation-Version: 0.0.1-SNAPSHOT
+Archiver-Version: Plexus Archiver
+Built-By: X7TI
+Implementation-Vendor-Id: com.how2java.tmall
+Spring-Boot-Version: 1.5.9.RELEASE
+Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: org.springframework.boot.loader.WarLauncher
+Start-Class: com.how2java.tmall.Application
+Spring-Boot-Classes: WEB-INF/classes/
+Spring-Boot-Lib: WEB-INF/lib/
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_65
+Implementation-URL: http://projects.spring.io/spring-boot/tmall_spring
+ boot/
+
